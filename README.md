@@ -1,1 +1,1 @@
-# This repository houses a comprehensive machine learning project designed to predict the outcomes of UFC fights using a Random Forest Classifier and a Neural Network. The models leverage detailed fighter statistics and historical match data to forecast which fighter will emerge victorious in specific matchups.
+# ufc-predicition-model
