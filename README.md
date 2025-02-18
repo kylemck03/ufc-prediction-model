@@ -1,1 +1,1 @@
-# ufc-prediction-model
+# ufc-predicition-model
