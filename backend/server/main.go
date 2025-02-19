@@ -37,14 +37,15 @@ type FighterStats struct {
 }
 
 type PredictionRequest struct {
-	Fighter1 FighterStats `json:"fighter_1"`
-	Fighter2 FighterStats `json:"fighter_2"`
+	Fighter1 FighterStats `json:"fighter1"`
+	Fighter2 FighterStats `json:"fighter2"`
 }
 
 type PredictionResponse struct {
+	Winner              string  `json:"winner"`
 	Probability         float64 `json:"probability"`
-	Fighter1Probability float64 `json:"fighter_1_probability"`
-	Fighter2Probability float64 `json:"fighter_2_probability"`
+	Fighter1Probability float64 `json:"fighter1_probability"`
+	Fighter2Probability float64 `json:"fighter2_probability"`
 }
 
 func main() {
